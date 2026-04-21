@@ -61,7 +61,7 @@ except ImportError:
 # =========================
 # Konfiguracija
 # =========================
-CSV_PATH = Path("/Users/4c/Desktop/GHQ/data/loto7hh_4600_k31.csv")
+CSV_PATH = Path("/data/loto7hh_4600_k31.csv")
 N_NUMBERS = 7
 N_MAX = 39
 
@@ -262,7 +262,7 @@ b=3  |amp_q-amp_full|₂=0.052896  cos(bias, freq_csv)=0.892492  NEXT=(9, 24, 27
 b=4  |amp_q-amp_full|₂=0.019033  cos(bias, freq_csv)=0.899572  NEXT=(3, 7, 19, 20, 27, 28, 29)
 b=8  |amp_q-amp_full|₂=0.001242  cos(bias, freq_csv)=0.900311  NEXT=(7, 19, 22, 24, 27, 28, 31)
 --- glavna predikcija ---
-predikcija NEXT: (7, 19, 22, 24, 27, 28, 31)
+predikcija NEXT: (7, 19, x, y, z, 28, 31)
 """
 
 
